@@ -1,6 +1,8 @@
 import cgi
+import re
 
 print("Content-type: text/html; charset=utf-8\n")
+
 
 a="aaaaaaaaaa"
 uform="""
@@ -19,22 +21,52 @@ uform="""
 <script>
 $('body').terminal({
 
-    hello: function(what) {
-    
-        this.echo('Hello, ' + what +
-                  '. Wellcome to this terminal.'
-                   + 'salut');
+    logs: function() {
+
+        """
+print(uform)
+with open("console.log" , 'r') as f:
+    for line in f:
+        print("""this.echo( """+ """'"""+line+""");""" )
+
+uform2= """
+    },
+
+    help: function(){
+        this.echo('0- la commande - la description de la commande');
+        this.echo('1- logs - Affiche l ensemble des logs de UI');
+        this.echo('2- log argv("Est une date") - Affiche les logs a partir de la date renseigne');
+        this.echo('3- quit - Quitte le terminal et revient sur le Dashboard');
+        this.echo('4- clear - Reset le terminal');
+    },
+
+    log: function(self){
+
+        """
+print(uform2)
+print("""this.echo(self);""")
+with open("console.log" , 'r') as f:
+   for line in f:
+       match= re.search(r'(\d+-\d+-\d+)',line)
+       #print(date)
+       #print(match.group(0))
+       if match.group(0) == """self""":
+           print("""this.echo( """+ """'"""+line+""");""")
+
+uform3= """ console.log(self);
+    },
+
+    quit: function(){
+
+        window.open('http://localhost:9000/home.py');
+        window.close();
+
+
     }
 
 }, {
-    greetings: 'My First """+str(a)+""" Terminal'
+    greetings: 'Console de Log:'
 });
 </script>
-
-
-
 """
-
-
-
-print(uform)
+print(uform3)
