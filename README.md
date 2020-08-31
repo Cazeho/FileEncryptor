@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td style="text-align:left;"><strong>FileEncriptor</strong></td>
-    <td><p style="color: green;">Yes</p></td>
+    <td>Yes</td>
     <td class="false">No</td>
     <td class="false">No</td>
     <td class="false">No</td>
