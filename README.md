@@ -1,7 +1,7 @@
 # FileEncryptor
 
 ![securite](https://user-images.githubusercontent.com/58745332/91750198-fd0ea680-ebc2-11ea-9f6b-37f2a9d81200.jpg)
-
+![chrome](https://user-images.githubusercontent.com/58745332/91751350-f5e89800-ebc4-11ea-8fae-cbdfa867ecd5.png)
 
 <hr>
 
