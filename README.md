@@ -17,11 +17,11 @@
     <th><a target="_blank" rel="noopener noreferrer" href="https://cdn.iconscout.com/icon/free/png-256/opera-13-226477.png"><img src="https://cdn.iconscout.com/icon/free/png-256/opera-13-226477.png" style="max-width:5%;"></a></th>                
   </tr>
   <tr>
-    <td style="text-align:left;"><strong>FileEncriptor</strong></td>
-    <td>Yes</td>
-    <td class="false">No</td>
-    <td class="false">No</td>
-    <td class="false">No</td>
+    <td style="text-align:left;"><strong>FileEncryptor</strong></td>
+    <td>   Yes</td>
+    <td class="false">   No</td>
+    <td class="false">   No</td>
+    <td class="false">   No</td>
     <td class="false"><center>No</center></td>
   </tr>
 </table>
