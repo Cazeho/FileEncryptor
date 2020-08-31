@@ -25,7 +25,7 @@ https://cdn3.iconfinder.com/data/icons/musthave/256/Delete.png
     <td align="center">   No</td>
     <td align="center">   No</td>
     <td align="center">   No</td>
-    <td align="center">No <a href="https://cdn3.iconfinder.com/data/icons/musthave/256/Delete.png"></a></td>
+    <td align="center">No <a target="_blank" rel="noopener noreferrer" href="https://cdn3.iconfinder.com/data/icons/musthave/256/Delete.png"><img src="https://cdn3.iconfinder.com/data/icons/musthave/256/Delete.png" style="max-width:5%;"></a> </td>
   </tr>
 </table>
 
