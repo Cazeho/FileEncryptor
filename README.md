@@ -9,7 +9,7 @@
 <table class="browserref notranslate">
   <tr>
     <th style="width:20%;font-size:16px;text-align:left;">Web App</th>
-    <th></th>
+    <th><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/58745332/80380760-4ca13680-88a0-11ea-908a-8644bea93b5f"><img src="https://user-images.githubusercontent.com/58745332/80380760-4ca13680-88a0-11ea-908a-8644bea93b5f.png" style="max-width:100%;"></a></th>
     <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
     <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
     <th style="width:16%;" class="bsSafari" title="Safari"></th>
