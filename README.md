@@ -1,5 +1,3 @@
-# FileEncryptor
-
 # ![fy](https://user-images.githubusercontent.com/58745332/91772429-29d3b580-ebe5-11ea-9845-7d060c93bf12.png)
 
 
