@@ -1,7 +1,7 @@
 # FileEncryptor
 
 ![securite](https://user-images.githubusercontent.com/58745332/91750198-fd0ea680-ebc2-11ea-9f6b-37f2a9d81200.jpg)
-
+https://cdn.iconscout.com/icon/free/png-256/opera-13-226477.png
 
 <hr>
 
@@ -13,7 +13,7 @@
     <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
     <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
     <th style="width:16%;" class="bsSafari" title="Safari"></th>
-    <th><a target="_blank" rel="noopener noreferrer" href="https://cdn.iconscout.com/icon/free/png-256/opera-13-226477.png"><img src="https://cdn.iconscout.com/icon/free/png-256/opera-13-226477.png" style="max-width:5%;"></a></th>                
+    <th><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/alrra/browser-logos/master/src/main-desktop-browser-logos.png"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/main-desktop-browser-logos.png" style="max-width:5%;"></a></th>                
   </tr>
   <tr>
     <td style="text-align:left;"><strong>FileEncriptor</strong></td>
