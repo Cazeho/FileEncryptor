@@ -19,11 +19,11 @@
   </tr>
   <tr>
     <td style="text-align:left;"><strong>FileEncryptor</strong></td>
-    <td>   Yes</td>
-    <td class="false">   No</td>
-    <td class="false">   No</td>
-    <td class="false">   No</td>
-    <td class="false"><center>No</center></td>
+    <td align="center">   Yes</td>
+    <td align="center">   No</td>
+    <td align="center">   No</td>
+    <td align="center">   No</td>
+    <td align="center"><center>No</center></td>
   </tr>
 </table>
 
