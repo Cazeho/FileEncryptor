@@ -9,7 +9,7 @@
 <table class="browserref notranslate">
   <tr>
     <th style="width:20%;font-size:16px;text-align:left;">Web App</th>
-    <th>![chrome](https://user-images.githubusercontent.com/58745332/91751350-f5e89800-ebc4-11ea-8fae-cbdfa867ecd5.png)</th>
+    <th></th>
     <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
     <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
     <th style="width:16%;" class="bsSafari" title="Safari"></th>
@@ -24,3 +24,8 @@
     <td class="false">No</td>
   </tr>
 </table>
+
+
+| Tables        | ![chrome](https://user-images.githubusercontent.com/58745332/91751350-f5e89800-ebc4-11ea-8fae-cbdfa867ecd5.png)          | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      |  |  |
