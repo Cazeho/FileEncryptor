@@ -9,7 +9,7 @@
 <table class="browserref notranslate">
   <tr>
     <th style="width:20%;font-size:16px;text-align:left;">Web App</th>
-    <th><a target="_blank" rel="noopener noreferrer" href="https://pic.clubic.com/v1/images/1688533/raw"><img src="https://pic.clubic.com/v1/images/1688533/raw" style="max-width:60%;"></a></th>
+    <th><a target="_blank" rel="noopener noreferrer" href="https://pic.clubic.com/v1/images/1688533/raw"><img src="https://pic.clubic.com/v1/images/1688533/raw" style="max-width:5%;"></a></th>
     <th style="width:16%;" class="bsEdge" title="Internet Explorer / Edge"></th>
     <th style="width:16%;" class="bsFirefox" title="Firefox"></th>
     <th style="width:16%;" class="bsSafari" title="Safari"></th>
