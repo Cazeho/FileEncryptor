@@ -21,7 +21,7 @@
     <td style="text-align:left;"><strong>FileEncryptor</strong></td>
     <td align="center">   Yes</td>
     <td align="center">   No</td>
-    <td align="center" class="text-purple">   No</td>
+    <td align="center">   No</td>
     <td align="center">   No</td>
     <td align="center"><center>No</center></td>
   </tr>
