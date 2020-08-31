@@ -21,7 +21,7 @@
     <td class="false">No</td>
     <td class="false">No</td>
     <td class="false">No</td>
-    <td class="false"><center>No</center></td>
+    <td class="false"><centre>No</centre></td>
   </tr>
 </table>
 
