@@ -193,14 +193,6 @@ EMAIL_PASSWORD=str(data_email[1])#[1]
 #    body=form.getvalue("textaerea")
 #    msg=f'Subject: {subject}\n\n{body}'
 #    smtp.sendmail(EMAIL_ADDRESS,form.getvalue("to"),msg)
-
-
-
-
-
-
-import smtplib
-
 # import the corresponding modules
 from email import encoders
 from email.mime.base import MIMEBase
