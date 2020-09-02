@@ -112,6 +112,8 @@ uform="""
 
         <br>
         <textarea id="textarea" name="textaerea" placeholder="Message" rows="20" cols="100"></textarea><br><br>
+        <br>
+        <input type="text" id="file" placeholder="File" name="attach"><br><br>
 
         <input type="submit" id="send" class="next action-button" value="Envoyer"/>
              <div class="alert alert-success" style="display:none;"  id="message">
@@ -179,16 +181,79 @@ EMAIL_PASSWORD=str(data_email[1])#[1]
 
 
 
+
 #SendMail
+#with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+#    smtp.ehlo()
+#    smtp.starttls()
+#    smtp.ehlo()
+
+#    smtp.login(EMAIL_ADDRESS,EMAIL_PASSWORD)
+#    subject=form.getvalue("subject")
+#    body=form.getvalue("textaerea")
+#    msg=f'Subject: {subject}\n\n{body}'
+#    smtp.sendmail(EMAIL_ADDRESS,form.getvalue("to"),msg)
+
+
+
+
+
+
+import smtplib
+
+# import the corresponding modules
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+
+
+
+subject=form.getvalue("subject")
+sender_email = str(data_email[0])
+receiver_email = form.getvalue("to")
+
+message = MIMEMultipart()
+message["From"] = sender_email
+message["To"] = receiver_email
+message["Subject"] = subject
+
+# Add body to email
+body=form.getvalue("textaerea")
+message.attach(MIMEText(body, "plain"))
+
+filename = form.getvalue("attach")
+# Open PDF file in binary mode
+
+# We assume that the file is in the directory where you run your Python script from
+if filename != "no":
+    with open(filename, "rb") as attachment:
+        # The content type "application/octet-stream" means that a MIME attachment is a binary file
+        part = MIMEBase("application", "octet-stream")
+        part.set_payload(attachment.read())
+
+    # Encode to base64
+    encoders.encode_base64(part)
+
+    # Add header
+    part.add_header(
+        "Content-Disposition",
+        f"attachment; filename= {filename}",
+    )
+
+    # Add attachment to your message and convert it to string
+    message.attach(part)
+    text = message.as_string()
+else:
+    text = message.as_string()
+
+# send your email
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.ehlo()
     smtp.starttls()
     smtp.ehlo()
-
     smtp.login(EMAIL_ADDRESS,EMAIL_PASSWORD)
-    subject=form.getvalue("subject")
-    body=form.getvalue("textaerea")
-
-    msg=f'Subject: {subject}\n\n{body}'
-
-    smtp.sendmail(EMAIL_ADDRESS,form.getvalue("to"),msg)
+    smtp.sendmail(
+        sender_email, receiver_email, text
+    )
