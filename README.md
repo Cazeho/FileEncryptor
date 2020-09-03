@@ -1,4 +1,4 @@
-# ![fy](https://user-images.githubusercontent.com/58745332/91772429-29d3b580-ebe5-11ea-9845-7d060c93bf12.png)
+# ![fy](https://user-images.githubusercontent.com/58745332/91772429-29d3b580-ebe5-11ea-9845-7d060c93bf12.png) In Progres
 
 This project is programmed with Python, JQuery, AJAX, Javascript and HTML
 
@@ -10,7 +10,8 @@ Download the Project ```git clone https://github.com/Cazeho/FileEncryptor.git```
 Start server in cmd
 ```python server.py```
 <br>
-soon available via docker
+<br>
+Soon available via docker
 <br>
 <br>
 ![securite](https://user-images.githubusercontent.com/58745332/91750198-fd0ea680-ebc2-11ea-9f6b-37f2a9d81200.jpg)
