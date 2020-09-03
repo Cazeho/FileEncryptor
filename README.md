@@ -2,7 +2,8 @@
 
 Download the Project ```git clone https://github.com/Cazeho/FileEncryptor.git```
 <br>
-start server in cmd
+<br>
+Start server in cmd
 ```python server.py```
 
 ![securite](https://user-images.githubusercontent.com/58745332/91750198-fd0ea680-ebc2-11ea-9f6b-37f2a9d81200.jpg)
