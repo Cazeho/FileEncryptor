@@ -36,3 +36,11 @@ Start server in cmd
 
 # Overview
 
+
+# License &amp; Copyright
+
+The materials herein are all © 2020-2021 Cazeho.
+
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="nofollow"><img alt="Creative Commons License" src="https://camo.githubusercontent.com/777429797f9180579ed59a4f95d148a0c213dfa8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d6e632d6e642f342e302f38387833312e706e67" data-canonical-src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="max-width:100%;"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="nofollow">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>
+
+
