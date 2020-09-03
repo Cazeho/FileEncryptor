@@ -1,7 +1,7 @@
 # ![fy](https://user-images.githubusercontent.com/58745332/91772429-29d3b580-ebe5-11ea-9845-7d060c93bf12.png)
 
 
-start server
+start server in cmd
 ```python server.py```
 
 ![securite](https://user-images.githubusercontent.com/58745332/91750198-fd0ea680-ebc2-11ea-9f6b-37f2a9d81200.jpg)
