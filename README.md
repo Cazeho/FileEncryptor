@@ -6,6 +6,8 @@ This project is programmed with Python, JQuery, AJAX, Javascript and HTML
 
 Encrypt/Decrypt your files in AES and through an email interface send it with an encrypted RSA public key 
 
+# How to Use
+<br>
 Download the Project (not finish)  ```git clone https://github.com/Cazeho/FileEncryptor.git```
 <br>
 <br>
