@@ -508,11 +508,7 @@ body { /* background-color: #2a2b3d */ } /* font color */
 <li><a href="#">ipsum dolor</a></li>
  </ul>
 </li>
-<li><i class="fa fa-bolt fa-fw"></i><a href="#"> Testimonials</a>
-<ul class="side-nav-dropdown">
-<li><a href="#">Lorem ipsum</a></li>
-<li><a href="#">ipsum dolor</a></li>
-</ul>
+<li><i class="fa fa-terminal fa-fw"></i><a href="http://localhost:9000/term.py"> Console</a>
 </li>
 <p>Example:</p>
 <li><i class="fa fa-envelope-open-o fa-fw"></i><a href="#"> Messages</a></li>
@@ -533,7 +529,7 @@ body { /* background-color: #2a2b3d */ } /* font color */
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 <i class="fa fa-align-right"></i>
 </button>
-<a class="navbar-brand" href="#">my<span class="main-color">Dashboard</span></a>
+<a class="navbar-brand" href="http://localhost:9000/home.py">my<span class="main-color">Dashboard</span></a>
 </div>
 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
@@ -562,11 +558,11 @@ $(".stop").click(function() { //class:
 });
 
 </script>
-<a href="#"><iconify-icon data-icon="logos:google-gmail"></iconify-icon></a>
+<a href="http://localhost:9000/mail.py"><iconify-icon data-icon="logos:google-gmail"></iconify-icon></a>
 <li class="dropdown2">
 
 
-<a class="dropdown-toggle"> <!--data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"-->My profile <span class="caret"></span></a>
+<a class="dropdown-toggle"> <!--data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"-->Mon profil <span class="caret"></span></a>
 <!--<ul class="dropdown-menu">
 <li><a href="#"><i class="fa fa-user-o fw"></i> My account</a></li>
 <li><a href="#"><i class="fa fa-envelope-o fw"></i> My inbox</a></li>
@@ -579,7 +575,7 @@ $(".stop").click(function() { //class:
 <br>
 <br>
  <div class="dropdown2-content">
-    <a href="#compte">Mon Compte</a>
+    <a href="http://localhost:9000/compte.py">Mon Compte</a>
     <a href="#help">Help</a>
     <a href="#apropos">A propos</a>
   </div>
@@ -646,12 +642,12 @@ $(".stop").click(function() { //class:
 <div class="chart-container">
 <h3>Liste Files : Upload</h3>
 
-
 """
 print(uform)
 
-for fi in files:
-    print("""<p>"""+fi+"""</p>""")
+
+for i,fi in enumerate(files):
+    print("""<p id="""+str(i)+"""><li>"""+fi+"""</li><p>""")
 
 uform2="""
 </div>
